@@ -1,0 +1,11 @@
+.ant-layout-sider-children {
+  overflow: auto;
+}
+.logo {
+  margin: 10px 5px;
+  padding: 5px;
+
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: white;
+}
