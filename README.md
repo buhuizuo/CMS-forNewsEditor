@@ -6,7 +6,8 @@ JSON Server as fake REST API to create quick back-end for mocking.
 
 
 Login Module:
-only the administrator is guaranteed the access.
+-only the administrator is guaranteed the access.
+
 
 Permission/Role Management Module:
 modify users' permission by edit roleState, roleId or region
@@ -21,8 +22,10 @@ modify users' permission by edit roleState, roleId or region
         "/news-manage/list",]
     }, ]
     
+    
+    
   User Info Management Module:
-  modify users detail
+ -modify users detail
   
      "users": [
     {
@@ -35,13 +38,25 @@ modify users' permission by edit roleState, roleId or region
       "roleId": "1"
     }, ]
     
+    
+    
    News Edit module:
+   -create news--Rich Text Editor(WYSIWYG) 
+   -Preview
+   -Draft box
+   -Update
+   -send to audit
    
-   create news-Rich Text Editor(WYSIWYG) 
-   Preview
-   Draft box
-   Update
    
-    
-    
+   
+   Audit module:
+  -Auditor give a pass or deny to news in the list.
+   
+   
+   
+   Publish module:
+   -publish audited news
+   -published news 
+   -unpublished news
+   
     
