@@ -1,4 +1,4 @@
-# CMS-forNewsEditor
+# CMS-forNewsEditors
 
 allowing multiple news editors, auditors and managers to create, edit, audit and publish news.
 build by React.
